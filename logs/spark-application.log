@@ -1,0 +1,146 @@
+24/12/05 11:15:43 INFO log: Logging initialized @8229ms to org.sparkproject.jetty.util.log.Slf4jLog
+24/12/05 11:15:43 INFO Server: jetty-9.4.54.v20240208; built: 2024-02-08T19:42:39.027Z; git: cef3fbd6d736a21e7d541a5db490381d95a2047d; jvm 11.0.0.2+2-2
+24/12/05 11:15:43 INFO Server: Started @8529ms
+24/12/05 11:15:43 INFO AbstractConnector: Started ServerConnector@2c5472ca{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+24/12/05 11:15:43 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@709fe7ba{/,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Stopped o.s.j.s.ServletContextHandler@709fe7ba{/,null,STOPPED,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@52f45b60{/jobs,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@401cacf2{/jobs/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@11bdf463{/jobs/job,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1a2ce005{/jobs/job/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4d2fe03a{/stages,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7514099f{/stages/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2ca70f49{/stages/stage,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@14f21945{/stages/stage/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2f8df595{/stages/pool,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@25818359{/stages/pool/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7dfb0f11{/storage,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@19c9d577{/storage/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5238d1f5{/storage/rdd,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6d0570d7{/storage/rdd/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@78e5b7a8{/environment,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@76d3fb5{/environment/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@ddc6c25{/executors,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@616ca3d5{/executors/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@59fb9a44{/executors/threadDump,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@47adc7d6{/executors/threadDump/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@36f3b993{/executors/heapHistogram,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@13f8821{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@605e2cc7{/static,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4093797{/,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7c12d670{/api,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1651d6f2{/jobs/job/kill,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7c81fd7f{/stages/stage/kill,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@a1a9f8a{/metrics/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2c30e667{/SQL,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@63c43eab{/SQL/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7d242cce{/SQL/execution,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1747a59{/SQL/execution/json,null,AVAILABLE,@Spark}
+24/12/05 11:15:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6dceb2e{/static/sql,null,AVAILABLE,@Spark}
+24/12/05 11:15:54 INFO AbstractConnector: Stopped Spark@2c5472ca{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+24/12/05 11:16:28 INFO log: Logging initialized @8165ms to org.sparkproject.jetty.util.log.Slf4jLog
+24/12/05 11:16:29 INFO Server: jetty-9.4.54.v20240208; built: 2024-02-08T19:42:39.027Z; git: cef3fbd6d736a21e7d541a5db490381d95a2047d; jvm 11.0.0.2+2-2
+24/12/05 11:16:29 INFO Server: Started @8477ms
+24/12/05 11:16:29 INFO AbstractConnector: Started ServerConnector@529369f6{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+24/12/05 11:16:29 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@269227b1{/,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Stopped o.s.j.s.ServletContextHandler@269227b1{/,null,STOPPED,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@59e3e590{/jobs,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@77beaae6{/jobs/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@10db58d6{/jobs/job,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1b2a83ba{/jobs/job/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4211525c{/stages,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@a761742{/stages/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@620186ad{/stages/stage,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6ee885ce{/stages/stage/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4fec813{/stages/pool,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@24874004{/stages/pool/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1cddc43e{/storage,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@576db7ef{/storage/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@422810ec{/storage/rdd,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@13925862{/storage/rdd/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@17689808{/environment,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6dba4f07{/environment/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@11271b4{/executors,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@662f6e{/executors/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@84191b4{/executors/threadDump,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5a7ace7f{/executors/threadDump/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@22660874{/executors/heapHistogram,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@71e35258{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@32a223df{/static,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@55970659{/,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6d5e119e{/api,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@23cffeb3{/jobs/job/kill,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@e9d6e2c{/stages/stage/kill,null,AVAILABLE,@Spark}
+24/12/05 11:16:31 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@67814ec4{/metrics/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:32 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@13f1afe9{/SQL,null,AVAILABLE,@Spark}
+24/12/05 11:16:32 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3488141f{/SQL/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:32 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@91f96c1{/SQL/execution,null,AVAILABLE,@Spark}
+24/12/05 11:16:32 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@729f2840{/SQL/execution/json,null,AVAILABLE,@Spark}
+24/12/05 11:16:32 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6ee5709d{/static/sql,null,AVAILABLE,@Spark}
+24/12/05 11:16:45 INFO SparkLogger: [[user_data_tbl, spark_catalog, [airline_db], null, MANAGED, false]]
+24/12/05 11:16:45 INFO AbstractConnector: Stopped Spark@529369f6{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+24/12/05 11:16:45 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\KishorMali\AppData\Local\Temp\spark-e9364fc4-42b1-44dd-9efa-e6aa4f51ad75\userFiles-31160ee8-cb0b-4fd6-a588-f1da63aae2bd
+java.io.IOException: Failed to delete: C:\Users\KishorMali\AppData\Local\Temp\spark-e9364fc4-42b1-44dd-9efa-e6aa4f51ad75\userFiles-31160ee8-cb0b-4fd6-a588-f1da63aae2bd\org.tukaani_xz-1.9.jar
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:147) ~[spark-common-utils_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:117) ~[spark-common-utils_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:130) ~[spark-common-utils_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:117) ~[spark-common-utils_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:90) ~[spark-common-utils_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121) ~[spark-common-utils_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120) ~[spark-common-utils_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1126) ~[spark-core_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:65) ~[spark-core_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:62) ~[spark-core_2.12-3.5.3.jar:3.5.3]
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36) ~[scala-library-2.12.18.jar:?]
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33) ~[scala-library-2.12.18.jar:?]
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198) ~[scala-library-2.12.18.jar:?]
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:62) ~[spark-core_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214) ~[spark-core_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188) ~[spark-core_2.12-3.5.3.jar:3.5.3]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) ~[scala-library-2.12.18.jar:?]
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1928) ~[spark-core_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188) ~[spark-core_2.12-3.5.3.jar:3.5.3]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) [scala-library-2.12.18.jar:?]
+	at scala.util.Try$.apply(Try.scala:213) [scala-library-2.12.18.jar:?]
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188) [spark-core_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178) [spark-core_2.12-3.5.3.jar:3.5.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+24/12/05 12:00:47 INFO log: Logging initialized @11283ms to org.sparkproject.jetty.util.log.Slf4jLog
+24/12/05 12:00:47 INFO Server: jetty-9.4.54.v20240208; built: 2024-02-08T19:42:39.027Z; git: cef3fbd6d736a21e7d541a5db490381d95a2047d; jvm 11.0.0.2+2-2
+24/12/05 12:00:47 INFO Server: Started @11669ms
+24/12/05 12:00:47 INFO AbstractConnector: Started ServerConnector@468a4e27{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+24/12/05 12:00:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4c5c86e5{/,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Stopped o.s.j.s.ServletContextHandler@4c5c86e5{/,null,STOPPED,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@312cd43b{/jobs,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7a7ae462{/jobs/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@72f473e4{/jobs/job,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@716e54e5{/jobs/job/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@79210e2b{/stages,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5b42d46d{/stages/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@743cb1d0{/stages/stage,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5b11a783{/stages/stage/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@223fa39d{/stages/pool,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6d45ab86{/stages/pool/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6047ab5e{/storage,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6a1c2e88{/storage/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@56255071{/storage/rdd,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5aca1c6a{/storage/rdd/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@56eece3{/environment,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@16787e82{/environment/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@39013a34{/executors,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2886ba0c{/executors/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@573c562{/executors/threadDump,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1f5ab31c{/executors/threadDump/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2de88a82{/executors/heapHistogram,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6c061846{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6b1996e6{/static,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@726708e9{/,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1b94f7f6{/api,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@73a6416{/jobs/job/kill,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4f7e4b0c{/stages/stage/kill,null,AVAILABLE,@Spark}
+24/12/05 12:00:51 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@489bac2a{/metrics/json,null,AVAILABLE,@Spark}
+24/12/05 12:01:08 INFO AbstractConnector: Stopped Spark@468a4e27{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}

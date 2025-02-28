@@ -1,0 +1,11 @@
+id,name,gender,dep
+1,"avila","female","HR"
+2,"manasi","female","HR"
+3,"kishor","male","delivery"
+4,"brijesh","male","delivery"
+5,"kshitija","female","management"
+6,"kiran","female","lead"
+7,"sumit","male","qa"
+8,"amit","male","ba"
+9,"pralhad","male","customer care"
+10,"quazi","male","dwh"
